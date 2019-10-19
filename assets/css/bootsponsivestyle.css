@@ -60,7 +60,7 @@ a {
     padding: 10px;
 }
 
-article {
+.article {
     background-color: #ffffff;
     text-align: left;
     padding: 10px;
@@ -69,12 +69,19 @@ article {
 h1 {
     padding-left: 10px;
     color: #4aaaa5;
-    text-align: left;   
+    text-align: left;
 }
 
-
+input[type=submit] {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    border: none;
+    padding: 10px;
+    width: 100px;  
+}
 
 .footer {
     background-color: #666666;
 
 }
+
